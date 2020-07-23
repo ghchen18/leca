@@ -88,12 +88,11 @@ cd ..
 export CUDA_VISIBLE_DEVICES=0
 export datadir=/path/to/your/work/dir
 
-'''
-The processed data locates in $datadir/processed_data 
-The raw format of test reference locates in $datadir/raw/test.$tgt
-The moses detokenize scripts detokenize.perl locates in $datadir 
-you can download detokenize.perl from <https://github.com/moses-smt/mosesdecoder/blob/master/scripts/tokenizer/detokenizer.perl>
-'''
+##The processed data locates in $datadir/processed_data 
+##The raw format of test reference locates in $datadir/raw/test.$tgt
+##The moses detokenize scripts detokenize.perl locates in $datadir 
+##you can download detokenize.perl from <https://github.com/moses-smt/mosesdecoder/blob/master/scripts/tokenizer/detokenizer.perl>
+
 
 src=en
 tgt=de
